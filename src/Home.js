@@ -3,7 +3,7 @@ import Form from "./SearchForm";
 import Movies from "./Movies";
 const Home = () => {
   return (
-    <main>
+    <main className="middle">
       <Form />
       <Movies />
     </main>

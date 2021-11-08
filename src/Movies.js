@@ -6,7 +6,6 @@ const picURL =
 
 const Movies = () => {
   const { movies, loading } = useGlobalContext();
-  console.log(movies);
   if (loading) {
     return <div className="loading"></div>;
   }
